@@ -12,6 +12,7 @@ namespace test
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("測試練習");
+            Console.WriteLine("第二次測試練習");
         }
     }
 }
