@@ -10,9 +10,11 @@ namespace test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("測試練習");
-            Console.WriteLine("第二次測試練習");
+            Double meal_cost = 100;
+            int tip_percent = 15;
+            int tax_percent = 8;
+            
+            Console.WriteLine("加總="+ (meal_cost + tip_percent + tax_percent));
         }
     }
 }
